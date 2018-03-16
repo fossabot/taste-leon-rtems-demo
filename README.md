@@ -1,4 +1,6 @@
 # Example TASTE project for LEON3
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdmarszk%2Ftaste-leon-rtems-demo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdmarszk%2Ftaste-leon-rtems-demo?ref=badge_shield)
+
 The project demonstrates direct calls to RTEMS LEON3 APB_UART and OC_CAN drivers. It makes an ugly and platform-locked code, but works.
 
 The project also demonstrated build and use of external libraries, using both GNU Make and WAF.
@@ -58,3 +60,6 @@ systeminit is forced to be initialized by having a long-period dummy tick interf
 
 ASN.1 representation of the CAN frame is very simplistic and does not support many functionalities that CAN allows.
 Ideally it should reflect CANMsg struct.
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdmarszk%2Ftaste-leon-rtems-demo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdmarszk%2Ftaste-leon-rtems-demo?ref=badge_large)
